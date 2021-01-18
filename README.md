@@ -90,4 +90,4 @@ python3 query_results.py
 ```
 
 ## Contact
-    * mohammed.farhan@kaust.edu.sa
+* mohammed.farhan@kaust.edu.sa
