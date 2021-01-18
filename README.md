@@ -7,14 +7,14 @@
 sed -i -e 1,4d world_primary_15_65527066353070.csv
 ```
 
-    * Note you need to install [SQLite](https://www.sqlite.org/index.html) database
+Note you need to install [SQLite](https://www.sqlite.org/index.html) database
 
 ```
 # Create new SQLite database
 sqlite3 jodidb.db
 ```
 
-    * Once database is created:
+Once database is created:
 
 ```
 -- Import csv data into a SQL table
@@ -79,7 +79,8 @@ select * from table2;
 .output stdout
 ```
 
-    * Finally, to get a nice output HTML results, use Python pandas to generate a new HTML table
+Finally, to get a nice output HTML results, use Python pandas to generate a new HTML table
+
 ```
 # if you don't have Python pandas package, you can install it by:
 pip3 install pandas
